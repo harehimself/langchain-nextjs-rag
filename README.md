@@ -1,52 +1,58 @@
-# Build a RAG Application
-## With LangChain & Next.js
----
+<p align="center">
+   <img src="https://github.com/harehimself/langchain-nextjs-rag/blob/master/langchain-nextjs-rag.png">
+</p>
 
-### Author Links
+<p align="center">
+   This repository contains a simple experimental app built with Next.js, LangChain, and OpenAI to demonstrate RAG (retrieval augmented generation). RAG is a technique that combines information retrieval and language generation to produce more informed and contextual responses. The app leverages Next.js for the front-end, LangChain for managing the retrieval and generation process, and OpenAI's language model for the generation component. It serves as a proof-of-concept for integrating RAG into web applications.
+</p>
+<br>
 
-👋 Hello, I'm Dave Gray.
+<p align="center">
+  <a href="https://github.com/harehimself/langchain-nextjs-rag/graphs/contributors">
+    <img src="https://img.shields.io/github/contributors/harehimself/langchain-nextjs-rag" alt="Contributors"></a>
+  <a href="https://github.com/harehimself/langchain-nextjs-rag/network/members">
+    <img src="https://img.shields.io/github/forks/harehimself/langchain-nextjs-rag" alt="Forks"></a>
+  <a href="https://github.com/harehimself/langchain-nextjs-rag/stargazers">
+    <img src="https://img.shields.io/github/stars/harehimself/langchain-nextjs-rag" alt="Stars"></a>
+  <a href="https://github.com/harehimself/langchain-nextjs-rag/issues">
+    <img src="https://img.shields.io/github/issues/harehimself/langchain-nextjs-rag" alt="Issues"></a>
+  <a href="https://github.com/harehimself/langchain-nextjs-rag/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/harehimself/langchain-nextjs-rag" alt="MIT License"></a>
+</p>
 
-📚 [My Courses](https://courses.davegray.codes/)
+<br><br>
 
-✅ [Check out my YouTube Channel with hundreds of tutorials](https://www.youtube.com/DaveGrayTeachesCode).
+## Table of Contents
+- [Table of Contents](#table-of-contents)
+- [Features](#features)
+- [Benefits](#features)
+- [How It Compares](#features)
+- [License](#license)
+<br>
 
-🚩 [Subscribe to my channel](https://bit.ly/3nGHmNn)
+## Features
+- Next.js front-end for a seamless user experience
+- LangChain integration for retrieval and generation management
+- OpenAI language model for generation
+- Customizable information retrieval sources
+- Simple and intuitive user interface
+<br>
 
-💖 [Support My Content](https://patreon.com/davegray)
+## Benefits
+- Provides more informed and contextual responses
+- Allows for dynamic and up-to-date information retrieval
+- Scalable and modular architecture
+- Easy to integrate into existing web applications
+- Demonstrates the potential of RAG in a practical setting
+<br>
 
-🚀 Follow Me:
+## How It Compares
+- Offers a more comprehensive solution compared to traditional question-answering systems
+- Leverages cutting-edge technologies like Next.js, LangChain, and OpenAI
+- Provides a practical example of RAG implementation in a web application
+- Serves as a starting point for further experimentation and development
+- Showcases the potential of combining retrieval and generation for enhanced responses
+<br>
 
-- [Twitter](https://twitter.com/yesdavidgray)
-- [LinkedIn](https://www.linkedin.com/in/davidagray/)
-- [Blog](https://davegray.codes)
-
----
-
-### Description
-
-📺 [YouTube Video](https://youtu.be/YLagvzoWCL0) for this repository.
-
----
-
-### ⚙ Usage
-
-- Provide your own .env.local file with an OpenAI API key
-- npm install
-- npm run dev
-
----
-
-### 🎓 Academic Honesty
-
-**DO NOT COPY FOR AN ASSIGNMENT** - Avoid plagiarism and adhere to the spirit of this [Academic Honesty Policy](https://www.freecodecamp.org/news/academic-honesty-policy/).
-
----
-
-### 📚 Tutorial References
-
-- 🔗 [LangChain JS/TS Docs](https://js.langchain.com/docs/get_started/introduction)
-- 🔗 [Next.js](https://nextjs.org/)
-- 🔗 [Vercel AI SDK](https://sdk.vercel.ai/docs)
-- 🔗 [OpenAI](https://openai.com/)
-- 🔗 [shadcn/ui](https://ui.shadcn.com/)
-- 🔗 [Next.js Light & Dark Modes](https://www.davegray.codes/posts/light-dark-mode-nextjs-app-router-tailwind)
+## License
+Released under the permissive MIT License. Allows free use, modification, and distribution.
