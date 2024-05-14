@@ -37,7 +37,7 @@ export function Chat() {
     return (
         <main className="flex flex-col w-full h-screen max-h-dvh bg-background">
 
-            <header className="p-4 border-b w-full max-w-3xl mx-auto flex items-center">
+            <header className="p-4 border-b w-full max-w-3xl mx-auto">
                 <Image src={logoImage} alt="Logo" width={30} height={30} className="mr-2" />
                 <h1 className="text-2xl font-bold">Hare RAG Chat</h1>
             </header>
